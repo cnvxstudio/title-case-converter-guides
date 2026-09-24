@@ -1,0 +1,23 @@
+{
+  "description": "Product-output examples, not a complete conformance suite or universal English rules. Defaults are title mode and APA 7. JSON input keys document these examples; they are not a public API contract.",
+  "checked_on": "2026-09-23",
+  "website": "https://titlecaseconverter.app/",
+  "cases": [
+    {"id":"apa-prepositions","input":{"text":"a walk with friends through town","styleId":"apa7"},"expected":"A Walk With Friends Through Town"},
+    {"id":"chicago-prepositions","input":{"text":"a walk with friends through town","styleId":"chicago18"},"expected":"A Walk with Friends Through Town"},
+    {"id":"ap-prepositions","input":{"text":"a walk with friends through town","styleId":"ap"},"expected":"A Walk With Friends Through Town"},
+    {"id":"mla-prepositions","input":{"text":"a walk with friends through town","styleId":"mla9"},"expected":"A Walk with Friends through Town"},
+    {"id":"capitalize-not-title","input":{"text":"a guide to API and iPhone","mode":"capitalize"},"expected":"A Guide To Api And Iphone"},
+    {"id":"sentence-starts","input":{"text":"A GUIDE TO WRITING. START HERE.","mode":"sentence"},"expected":"A guide to writing. Start here."},
+    {"id":"lowercase-names","input":{"text":"HELLO iPhone API!","mode":"lowercase"},"expected":"hello iphone api!"},
+    {"id":"uppercase-names","input":{"text":"Hello iPhone API!","mode":"uppercase"},"expected":"HELLO IPHONE API!"},
+    {"id":"toggle-caps-lock","input":{"text":"hELLO wORLD!","mode":"toggle"},"expected":"Hello World!"},
+    {"id":"preferred-spelling","input":{"text":"a guide to zetaCloud","preserveWords":"zetaCloud"},"expected":"A Guide to zetaCloud"},
+    {"id":"uppercase-accent-limit","input":{"text":"café","mode":"uppercase"},"expected":"CAFé"},
+    {"id":"lowercase-accent-limit","input":{"text":"ÉCOLE","mode":"lowercase"},"expected":"École"},
+    {"id":"mla-multiword-preposition","input":{"text":"ideas according to plan","styleId":"mla9"},"expected":"Ideas according to Plan"},
+    {"id":"mla-compound","input":{"text":"anti-slavery campaigns","styleId":"mla9"},"expected":"Anti-slavery Campaigns"},
+    {"id":"blank-lines","input":{"text":"HELLO\n\nWORLD","mode":"lowercase"},"expected":"hello\n\nworld"},
+    {"id":"apa-heading","input":{"text":"a guide to writing with clarity","styleId":"apa7"},"expected":"A Guide to Writing With Clarity"}
+  ]
+}
