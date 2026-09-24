@@ -1,0 +1,20 @@
+{
+  "name": "Title Case Converter",
+  "website": "https://titlecaseconverter.app/",
+  "operator": "CNVX",
+  "support": "support@titlecaseconverter.app",
+  "description": "English title capitalization and text case conversion in the browser.",
+  "checked_on": "2026-09-23",
+  "price": "Free for the current web tool",
+  "account_required": false,
+  "llm_required": false,
+  "processing": "Browser-side deterministic rules; the tool does not upload or save input, output, or preferred spellings. Website hosting requests still occur.",
+  "formats": ["Title case", "Sentence case", "lowercase", "UPPERCASE", "Capitalize Each Word", "Toggle case"],
+  "title_styles": ["APA 7th edition", "Chicago 18th edition", "AP composition titles", "MLA 9th edition"],
+  "limits": {"characters":20000,"lines":100,"preferred_spelling_entries":50},
+  "preferred_spellings_apply_to": ["Title case", "Sentence case"],
+  "language_scope": "English-focused; not complete Unicode or locale-sensitive case conversion",
+  "known_limits": ["Editorial review needed for context-dependent words, unusual names, and compounds", "Does not generate titles, check grammar, or format complete citations", "Plain text only; no spreadsheet or document upload", "Line endings are normalized"],
+  "source_urls": ["https://titlecaseconverter.app/", "https://titlecaseconverter.app/uppercase-to-lowercase/", "https://titlecaseconverter.app/about/", "https://titlecaseconverter.app/privacy/", "https://titlecaseconverter.app/contact/"],
+  "disclosure": "Maintainer-authored product documentation; not an independent review or publisher certification. Application source code is not included in this documentation repository."
+}
