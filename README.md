@@ -2,11 +2,19 @@
 
 [Title Case Converter](https://titlecaseconverter.app/) is a free browser-based tool for English title capitalization and text case conversion. Choose APA, Chicago, AP, or MLA title case; switch to sentence case, lowercase, uppercase, capitalize each word, or toggle case. No account or AI API is required.
 
-This is the product's documentation and example repository, maintained by **CNVX**, the operator of titlecaseconverter.app. It is not an independent review, a ranking of competing products, or the application's source-code repository.
+Practical capitalization guides, style comparisons, and reusable examples for writers, students, editors, and small teams. Maintained by **CNVX**, the operator of titlecaseconverter.app.
 
 **[Open Title Case Converter](https://titlecaseconverter.app/)** · **[Convert uppercase to lowercase](https://titlecaseconverter.app/uppercase-to-lowercase/)**
 
 Product facts and examples last checked: **September 23, 2026**.
+
+## Why use Title Case Converter?
+
+- **Six case formats in one workspace:** title case, sentence case, lowercase, uppercase, Capitalize Each Word, and toggle case.
+- **Four title-style presets:** choose APA, Chicago, AP, or MLA to match your writing task.
+- **Batch conversion:** process up to 100 lines and 20,000 characters while preserving spacing and blank lines.
+- **Preferred spellings:** keep up to 50 names and brand spellings in title and sentence modes.
+- **A simple, private workflow:** convert locally in the browser, edit the result, undo one change, and copy plain text. No account, subscription, credit card, or AI API key is needed.
 
 ## What can I do with this tool?
 
